@@ -22,6 +22,7 @@ public void user_is_on_login_page() {
 	driver.get("https://demo.actiTime.com/login.do");
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	System.out.println("I am Roshani");
 }
 
 @When("user should enter Un and Pwd")
